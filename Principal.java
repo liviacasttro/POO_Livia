@@ -11,7 +11,7 @@ public class Principal {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite seu nome: ");
-		nome = sc.next(); 
+		nome = sc.nextLine(); 
 		
 		System.out.println("Digite sua nota 01: ");
 		n1 = sc.nextDouble();
